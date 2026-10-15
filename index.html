@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="Abhi — BCA student, video editor, cinematography enthusiast and digital creator.">
+  <title>Abhi | Creative mind. Digital vision.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#home" aria-label="Abhi home">abhi<span>.</span></a>
+      <nav class="links" id="navLinks" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Projects</a><a href="#achievements">Achievements</a><a href="#education">Education</a><a href="#gallery">Gallery</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-btn" id="themeToggle" type="button" aria-label="Switch to light mode" title="Toggle dark/light mode">☼ <span class="theme-label">Light mode</span></button>
+        <a class="btn primary" href="#contact">Contact ↗</a>
+        <button class="menu" id="menuBtn" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow mono"><span class="dot"></span> BCA Student · Creative Explorer</div>
+        <h1>Creative mind.<br><span class="outline">Digital</span><br><span class="lime">vision.</span></h1>
+        <p>Hey, I'm Abhilash — a BCA student with a creative side. I enjoy video editing, cinematography, digital design, social media content, and building web experiences. I'm exploring how technology and visual storytelling can work together to create memorable things.</p>
+        <div class="actions"><a class="btn primary" href="#work">Explore my work ↓</a><a class="btn secondary" href="#about">More about me ↘</a></div>
+        <div class="meta-row">
+          <div class="meta-item"><strong>2×</strong><span>Hardware Assembly · Winner</span></div>
+          <div class="meta-item"><strong>3rd year</strong><span>BCA · in progress</span></div>
+          <div class="meta-item"><strong>Creative + Tech</strong><span>My direction</span></div>
+        </div>
+      </div>
+      <div class="hero-art reveal" aria-label="Profile portrait area">
+        <div class="orbit"><span class="orbit-dot"></span></div>
+        <div class="portrait">
+          <span class="fallback" aria-hidden="true">A.</span>
+          <img src="assets/profile.jpg" alt="Portrait of Abhi" onerror="this.style.display='none'">
+          
+        </div>
+        <div class="float-card one"><strong>Creative mindset ✳</strong><span>Visuals with a purpose</span></div>
+        <div class="float-card two"><strong>Always learning</strong><span>Design · Media · Web</span></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head reveal"><div><div class="mono">01 / About me</div><h2>Curious by nature.<br>Creative by choice.</h2></div><p>A student building a future at the intersection of technology, design, and visual storytelling.</p></div>
+        <div class="about-grid">
+          <div class="panel about-profile reveal"><div><span class="mono">A little introduction</span><div class="mini-monogram">Abhilash</div></div><div><h3></h3><p>BCA · Third year · Student & digital creator</p><div class="tags"><span class="tag">Learner</span><span class="tag">Creator</span><span class="tag">Problem solver</span></div></div></div>
+          <div class="panel about-copy reveal">
+            <p>I'm currently pursuing my third year of Bachelor of Computer Applications (BCA) at Swamy Vivekananda Rural First Grade College. I completed my PUC at Swamy Vivekananda Rural Pre-University College.</p>
+            <p>Alongside my studies, I'm interested in video editing, cinematography, UI/UX design, digital marketing, social media content, and web development. I enjoy creating cinematic visuals, exploring design ideas, and building web pages that look clean and work smoothly.</p>
+            <p>I've also taken part in technical and creative college events, including winning first place in Hardware Assembly at Login 2K25 and Login 2K26. I'm focused on learning through practice, improving my communication, and turning ideas into finished projects.</p>
+            <div class="tags"><span class="tag">Video editing</span><span class="tag">Cinematography</span><span class="tag">UI/UX</span><span class="tag">Web development</span><span class="tag">Digital marketing</span><span class="tag">Networking & communication</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head reveal"><div><div class="mono">02 / Skills & interests</div><h2>Creative + tech.</h2></div></div>
+        <div class="skills-grid">
+          <article class="skill reveal"><div class="skill-head"><span class="skill-name">Video Editing</span><span class="skill-symbol">▶</span></div><p class="skill-note">Cinematic edits, reels, and visual storytelling.</p><div class="skill-chips"><span class="tag">Editing</span><span class="tag">Storytelling</span><span class="tag">Colour & mood</span></div></article>
+          <article class="skill reveal"><div class="skill-head"><span class="skill-name">Cinematography</span><span class="skill-symbol">◉</span></div><p class="skill-note">Camera movement, composition, lighting, and atmosphere.</p><div class="skill-chips"><span class="tag">Mobile filmmaking</span><span class="tag">Composition</span></div></article>
+          <article class="skill reveal"><div class="skill-head"><span class="skill-name">UI/UX Design</span><span class="skill-symbol">✳</span></div><p class="skill-note">Clean layouts, visual hierarchy, user flows, and usability.</p><div class="skill-chips"><span class="tag">Interface design</span><span class="tag">User experience</span></div></article>
+          <article class="skill reveal"><div class="skill-head"><span class="skill-name">Web Development</span><span class="skill-symbol">⌘</span></div><p class="skill-note">Building responsive pages and publishing projects online.</p><div class="skill-chips"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">GitHub Pages</span></div></article>
+          <article class="skill reveal"><div class="skill-head"><span class="skill-name">Digital Marketing</span><span class="skill-symbol">↗</span></div><p class="skill-note">Digital content ideas, social presence, and audience engagement.</p><div class="skill-chips"><span class="tag">Content strategy</span><span class="tag">Engagement</span></div></article>
+          <article class="skill reveal"><div class="skill-head"><span class="skill-name">Social Media Content</span><span class="skill-symbol">◎</span></div><p class="skill-note">Creative concepts, short-form videos, and publishing content.</p><div class="skill-chips"><span class="tag">Reels</span><span class="tag">Creative concepts</span></div></article>
+          <article class="skill reveal"><div class="skill-head"><span class="skill-name">Networking & Communication</span><span class="skill-symbol">⌁</span></div><p class="skill-note">Working with people, collaboration, and clear communication.</p><div class="skill-chips"><span class="tag">Teamwork</span><span class="tag">Communication</span></div></article>
+          <article class="skill reveal"><div class="skill-head"><span class="skill-name">Advanced Excel</span><span class="skill-symbol">▦</span></div><p class="skill-note">Completed Advanced Excel training with an A+ grade.</p><div class="skill-chips"><span class="tag">Course completed</span><span class="tag">A+ grade</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="wrap">
+        <div class="section-head reveal"><div><div class="mono">03 / Selected work</div><h2>Built with intention.</h2></div></div>
+        <div class="project-grid">
+          <article class="project reveal"><div><div class="project-top"><span class="project-number">PROJECT / 01</span><div class="project-symbol">⌘</div></div><h3>Eshwa Website</h3><p>A live web project demonstrating front-end page building and visual presentation.</p><div class="tags"><span class="tag">Web development</span><span class="tag">HTML/CSS</span></div></div><div class="project-bottom"><span class="mono">Live website</span><a class="arrow-link" href="https://abhi-0336.github.io/eshwa/" target="_blank" rel="noopener noreferrer" aria-label="Open Eshwa website">↗</a></div></article>
+          <article class="project reveal"><div><div class="project-top"><span class="project-number">PROJECT / 02</span><div class="project-symbol">▶</div></div><h3>Cinematic Video Edits</h3><p>A growing collection of cinematic edits, reels, GTA cinematics, and visual experiments focused on mood and storytelling.</p><div class="tags"><span class="tag">Video editing</span><span class="tag">Colour & mood</span></div></div><div class="project-bottom"><span class="mono">Creative media</span><a class="arrow-link" href="https://www.instagram.com/stories_with_abhi/" target="_blank" rel="noopener noreferrer" aria-label="View Abhi's Instagram">↗</a></div></article>
+          
+          <article class="project reveal"><div><div class="project-top"><span class="project-number">PROJECT / 04</span><div class="project-symbol">✳</div></div><h3>UI/UX & Web Concepts</h3><p>Interface ideas, landing pages, and responsive layouts built while exploring user experience and visual design.</p><div class="tags"><span class="tag">UI/UX</span><span class="tag">Responsive design</span></div></div><div class="project-bottom"><span class="mono">Design explorations</span><a class="arrow-link" href="https://github.com/Abhi-0336" target="_blank" rel="noopener noreferrer" aria-label="View Abhi's GitHub">↗</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements">
+      <div class="wrap">
+        <div class="section-head reveal"><div><div class="mono">04 / Recognition</div><h2>Achievements & learning.</h2></div><p>Selected achievements and completed training, recorded as text rather than certificate images.</p></div>
+        <div class="achievement-list">
+          <article class="achievement reveal"><div class="ach-icon">🏆</div><div><h3>2nd Place — Hardware Assembly, Login 2K26</h3><p>Secured second place at the national-level IT fest organised by the Department of Computing and Basic Sciences in association with IQAC, Christ College of Science and Management, Alambady, on 6 March 2026.</p></div><span class="year">MAR 2026</span></article>
+          <article class="achievement reveal"><div class="ach-icon">🏆</div><div><h3>1st Place — Hardware Assembly, Login 2K25</h3><p>Secured first place at the national-level IT fest organised by the Department of Computing and Basic Sciences, IQAC, Christ College of Science and Management, Alambady, on 20 March 2025.</p></div><span class="year">MAR 2025</span></article>
+          <article class="achievement reveal"><div class="ach-icon">✦</div><div><h3>Advanced Excel — A+ Grade</h3><p>Completed Advanced Excel and soft-skill training through UpTaught Institute, associated with Swamy Vivekananda Rural First Grade College. Certificate dated 7 October 2024.</p></div><span class="year">OCT 2024</span></article>
+          <article class="achievement reveal"><div class="ach-icon">◈</div><div><h3>National Technical Symposium — 1st Place</h3><p>Secured first place at a national technical symposium hosted at M.G.R. College, Hosur, in 2025.</p></div><span class="year">2025</span></article>
+          
+          <article class="achievement reveal"><div class="ach-icon">◎</div><div><h3>Annual Desh Apnayan Awards — Jury award</h3><p>got jury award in the Annual Desh Apnayan Awards 2025–26, recognising active citizenship.</p></div><span class="year">2025–26</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="wrap">
+        <div class="section-head reveal"><div><div class="mono">05 / Education</div><h2>Learning in progress.</h2></div><p>Building a foundation in computing while exploring the creative side of technology.</p></div>
+        <div class="edu-grid">
+          <article class="panel edu-card reveal"><span class="mono">Currently pursuing</span><h3>Bachelor of Computer Applications (BCA)</h3><p>Swamy Vivekananda Rural First Grade College<br>Third year · In progress</p></article>
+          <article class="panel edu-card reveal"><span class="mono">Completed</span><h3>Pre-University Course (PUC)</h3><p>Swamy Vivekananda Rural Pre-University College.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="wrap">
+        <div class="section-head reveal"><div><div class="mono">06 / Social gallery</div><h2>From my creative corner.</h2></div><p>Explore my social profiles for creative posts and videos. YouTube can be connected once the channel URL is added.</p></div>
+        <div class="gallery-grid">
+          <article class="gallery-card reveal"><div class="gallery-art" aria-hidden="true">◎</div><div class="gallery-info"><h3>Instagram</h3><p>Reels, edits, photography, and creative updates.</p><a href="https://www.instagram.com/stories_with_abhi/" target="_blank" rel="noopener noreferrer">Visit Instagram ↗</a></div></article>
+          <article class="gallery-card reveal"><div class="gallery-art" aria-hidden="true">▶</div><div class="gallery-info"><h3>Linkedin</h3><a href="https://www.linkedin.com/in/abhilash-d-b1594b424?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" id="youtubeLink">Connect to LinkedIn ↗</a></div></article>
+          <article class="gallery-card reveal"><div class="gallery-art" aria-hidden="true">⌘</div><div class="gallery-info"><h3>GitHub</h3><p>Web projects, practice builds, and code experiments.</p><a href="https://github.com/Abhi-0336" target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact-box reveal">
+          <div><div class="mono">07 / Let's connect</div><h2>Have an idea? Let's make it real.</h2><p>Open to creative collaborations, student projects, and opportunities to learn, create, and grow.</p><div class="contact-links"><a href="mailto:abhi930046@gmail.com">abhi930046@gmail.com ↗</a><a href="https://www.linkedin.com/in/abhilash-d-b1594b424/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://www.instagram.com/stories_with_abhi/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></div>
+          <a class="btn" href="mailto:abhi930046@gmail.com?subject=Portfolio%20Enquiry">Email me ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap footer-inner"><span>© <span id="year"></span> Abhi · Made with curiosity.</span><div class="socials"><a href="https://github.com/Abhi-0336" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/abhilash-d-b1594b424/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://www.instagram.com/stories_with_abhi/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="#home">Back to top ↑</a></div></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
